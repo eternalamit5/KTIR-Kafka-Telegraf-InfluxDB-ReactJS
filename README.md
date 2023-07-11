@@ -164,6 +164,7 @@ from(bucket: "example-bucket")            // ?? Source
   |> filter(fn: (r) => r._field == "foo") // ?? Filter on column values
   |> group(columns: ["sensorID"])         // ?? Shape
   |> mean()                               // ?? Process
+  
 `
 
 ### Visualize data with Recharts
@@ -251,6 +252,7 @@ export const InfuxChart = () => {
 };
 
 export default InfuxChart;
+
 `
 
 ### Snashot of the Web Client output. The graph shows the temperature and pressure data coming from InfluxDB.
