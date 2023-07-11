@@ -96,7 +96,7 @@ Telegraf will use the following environment variables to subscribe to Kafka Brok
 
 
 - Kafdrop web UI: `http://localhost:9000`
-Here we can see the data present in the Kafka Topic.
+Here we can see the data present in the Kafka Topic. Here states1 and states2 are the two topics where temperature and pressure data are being sent.
 
 
 
