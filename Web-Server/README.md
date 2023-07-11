@@ -6,6 +6,10 @@ It quickly creates the KTIS stack with __basic__ user authentication for all
 components in the stack. This case provides the most basic level security, where username and passwords
 are required for all the components.
 
+### Send Sensor Data
+
+- run the Python script `SendTempPressure.py` present in the folder DataSender/SendTempPressure.py. This script sends the random temperature and pressure values every 5 sec to the Kafka topic.
+
 ## Environment Variables & Configuration Files
 
 ### Authentication
