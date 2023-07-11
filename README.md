@@ -38,6 +38,10 @@ are required for all the components.
 1. Bring the stack up:
 
         sudo docker compose -f docker-compose-test2.yml --env-file conf/variables.env up --pull always
+
+2. Bring the stack down:
+
+        sudo docker compose -f docker-compose-test2.yml --env-file conf/variables.env down  
     
 
 ## Component Availability
@@ -154,6 +158,9 @@ Here we can see the data present in the Kafka Topic. Here states1 and states2 ar
 
 $ npm install --save react-bootstrap bootstrap
 
+## To Run the WebClient
+
+`npm start`
 
 ### Query data from InfluxDB  
 
