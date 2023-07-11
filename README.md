@@ -159,14 +159,14 @@ $ npm install --save react-bootstrap bootstrap
 
 - Here’s a simple Flux query that follows the above structure:
 
-`
+```
 from(bucket: "example-bucket")            // ?? Source
   |> range(start: -1d)                    // ?? Filter on time
   |> filter(fn: (r) => r._field == "foo") // ?? Filter on column values
   |> group(columns: ["sensorID"])         // ?? Shape
   |> mean()                               // ?? Process
   
-`
+```
 
 ### Visualize data with Recharts
 
