@@ -32,7 +32,7 @@ are required for all the components.
 - In the current project two topics are created in the Kafka broker i.e; "states1" and "states2"
 
 
-## Steps to Bring the KTIS WebServer Stack Up
+## Steps to Bring the KTIS WebServer Stack Up and Down
 
 
 1. Bring the stack up:
@@ -136,7 +136,7 @@ Here we can see the data present in the Kafka Topic. Here states1 and states2 ar
 
 
 
-- InfluxDB Dashboard: `http://localhost:8086` (username:`influx-admin` | password: `admin:ThisIsNotThePasswordYouAreLookingFor`)
+- InfluxDB Dashboard: `http://localhost:8086` (username:`influx-admin` | password: `ThisIsNotThePasswordYouAreLookingFor`)
 
   
 ![Screenshot from 2023-07-06 15-56-57](https://github.com/eternalamit5/KTIS-Kafka-Telegraf-InfluxDB-ReactJS/assets/44448083/d1bbb7b0-7278-4ef0-a99e-0997c9a5795c)
