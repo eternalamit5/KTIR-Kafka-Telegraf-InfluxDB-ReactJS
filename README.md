@@ -36,7 +36,8 @@ are required for all the components.
 ## Component Availability
 
 |   Component  |  Credentials (username:password)  |                         Endpoint                         |
-|:---------:|:-----------------:|:-----------------------------------------------------------------------------------------------------:|     |
+|:---------:|:-----------------:|:-----------------------------------------------------------------------------------------------------:| 
+
 | `KafDrop` | none                                                | Browser: `http://localhost:9000`|
 | `influxdb`| `influx-admin:ThisIsNotThePasswordYouAreLookingFor` | Browser: `http://localhost:8086`|
 
