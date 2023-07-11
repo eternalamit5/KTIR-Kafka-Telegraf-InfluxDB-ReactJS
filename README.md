@@ -90,7 +90,7 @@ Telegraf will use the following environment variables to subscribe to Kafka Brok
 
 # Snapshots
 
-- Sensor data send by the python script:
+- Random Sensor data like temperature and pressure sent by the Python script:
   
 ![image](https://github.com/eternalamit5/KTIS-Kafka-Telegraf-InfluxDB-ReactJS/assets/44448083/e560d810-b4e3-46d5-aa2c-b3f23c05cd59)
 
