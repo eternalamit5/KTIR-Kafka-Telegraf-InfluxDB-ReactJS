@@ -1,10 +1,17 @@
-# KTIS-Kafka-Telegraf-InfluxDB-ReactJS Stack
-KTIS Stack = Kafka + Telegraf + InfluxDB + ReactJS Stack
+# KTIR-Kafka-Telegraf-InfluxDB-ReactJS Stack
+KTIR Stack = Kafka + Telegraf + InfluxDB + ReactJS Stack
 
-It quickly creates the KTIS stack with __basic__ user authentication for all
+
+## 1. Web Server
+
+It quickly creates the KTI stack with __basic__ user authentication for all
 components in the stack. This case provides the most basic level security, where username and passwords
 are required for all the components.
 
+### Send Sensor Data
+
+- run the Python script `SendTempPressure.py` present in the folder DataSender/SendTempPressure.py. This script sends the random temperature and pressure values every 5 sec to the Kafka topic.
+  
 ## Environment Variables & Configuration Files
 
 ### Authentication
@@ -129,6 +136,12 @@ Here we can see the data present in the Kafka Topic. Here states1 and states2 ar
 
   
 ![Screenshot from 2023-07-06 15-56-57](https://github.com/eternalamit5/KTIS-Kafka-Telegraf-InfluxDB-ReactJS/assets/44448083/d1bbb7b0-7278-4ef0-a99e-0997c9a5795c)
+
+
+
+## 2. Web Client
+
+
 
 
 
