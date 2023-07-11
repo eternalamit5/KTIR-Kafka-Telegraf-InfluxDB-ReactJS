@@ -92,13 +92,43 @@ Telegraf will use the following environment variables to subscribe to Kafka Brok
 
 - Sensor data send by the python script:
   
+![image](https://github.com/eternalamit5/KTIS-Kafka-Telegraf-InfluxDB-ReactJS/assets/44448083/e560d810-b4e3-46d5-aa2c-b3f23c05cd59)
+
 
 - Kafdrop web UI: `http://localhost:9000`
-Here we can see the data present in the Kafka Topic.  
+Here we can see the data present in the Kafka Topic.
+
+
+
+![Screenshot from 2023-07-07 15-02-04](https://github.com/eternalamit5/KTIS-Kafka-Telegraf-InfluxDB-ReactJS/assets/44448083/8c3f678b-ec11-4e9c-a1ac-2692ca22f2bd)
+
+
+
+
+![Screenshot from 2023-07-07 15-02-31](https://github.com/eternalamit5/KTIS-Kafka-Telegraf-InfluxDB-ReactJS/assets/44448083/3017dafd-d0ad-4a14-9714-d8e9aa63acf3)
+
+
+
+
+
+![Screenshot from 2023-07-07 15-02-52](https://github.com/eternalamit5/KTIS-Kafka-Telegraf-InfluxDB-ReactJS/assets/44448083/c7f02366-b104-4010-badb-dcc0bfba3350)
+
+
+
+
+
+
+
+
+
+
 
 
 
 - InfluxDB Dashboard: `http://localhost:8086` (username:`influx-admin` | password: `admin:ThisIsNotThePasswordYouAreLookingFor`)
+
+  
+![Screenshot from 2023-07-06 15-56-57](https://github.com/eternalamit5/KTIS-Kafka-Telegraf-InfluxDB-ReactJS/assets/44448083/d1bbb7b0-7278-4ef0-a99e-0997c9a5795c)
 
 
 
