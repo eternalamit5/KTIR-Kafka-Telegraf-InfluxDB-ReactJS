@@ -1,7 +1,6 @@
 ## 1. Web Client
 
 
-
 - The Web Client requests the sensor data from the InfluxDB database using the API and visualizes the sensor data like Temperature and Pressure using Rechart Library in the ReactJS app.
   
 ##setup react envirnoment (Done once per PC)
@@ -11,10 +10,13 @@
 4.	$ npm --version
 5.	$ npm install -g create-react-app
 
-##Install the below Libraries
+## Install the below Libraries
 
 $ npm install --save react-bootstrap bootstrap
 
+## To Run the WebClient
+
+`npm start`
 
 ### Query data from InfluxDB  
 
